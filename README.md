@@ -56,7 +56,7 @@ mkdir -p nillion/accuser
 ```
 ```
 
-docker run -v .\nillion\accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 initialise
+docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 initialise
 
 ```
 
