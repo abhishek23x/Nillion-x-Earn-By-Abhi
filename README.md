@@ -52,6 +52,12 @@ docker pull nillion/retailtoken-accuser:v1.0.0
 
 ```
 mkdir -p nillion/accuser
+
+```
+```
+
+docker run -v .\nillion\accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 initialise
+
 ```
 
 **Final Command To Run**
